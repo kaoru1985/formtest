@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="株式会社01テクノロジーズ(ゼロイチテクノロジーズ)は、新しいかたちの開発会社です。ご依頼の内容だけでなく、もしかしたらご自身でも気がついていない本当に必要なものをご提案させていただきます。">
+  <meta name="author" content="">
+
+  <title>株式会社01テクノロジーズ</title>
+
+  <link href="favicon.ico" rel="icon">
+
+  <!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom fonts for this template -->
+  <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+  <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
+
+  <!-- Custom styles for this template -->
+  <link href="css/agency.min.css" rel="stylesheet">
+</head>
+
+<body id="page-top">
+
+  <!-- Contact -->
+  <section class="page-section" id="contact">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 text-center">
+          <h2 class="section-heading text-uppercase">お問い合わせ</h2>
+          <h3 class="section-subheading text-muted">Ask me!</h3>
+        </div>
+      </div>
+      <div class="row text-center">
+        <div class="col-lg-12">
+          <p class="section-text text-white">
+            まずはなんでもご遠慮なくお問い合わせください。<br>
+            まだ企画がまとまっていない…という段階でもお伺いさせていただきます。<br>
+            <span class="small text-white">* は必須項目</span>
+          </p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-12">
+          <form id="contactForm" action="https://docs.google.com/forms/u/0/d/e/1FAIpQLScC0TBbl56sNlvIokNPy2CBpbXyOrpNyM7bD4_biN-T6NapvQ/formResponse">
+            <div class="row">
+              <div class="col-md-6 mb-md-3">
+                <div class="form-group">
+                  <input class="form-control" id="name" name="entry.1336829467" type="text" placeholder="お名前 *" required/>
+                  <p class="help-block text-danger"></p>
+                </div>
+                <div class="form-group">
+                  <input class="form-control" id="companyname" name="entry.1137287532" type="text" placeholder="会社名">
+                </div>
+                <div class="form-group">
+                  <input class="form-control" id="email" name="entry.538678392" type="email" placeholder="メールアドレス *" required/>
+                </div>
+                <div class="form-group">
+                  <input class="form-control" id="phone" name="384522759" type="tel" placeholder="お電話番号">
+                </div>
+              </div>
+              <div class="col-md-6 mb-3">
+                <div class="form-group">
+                  <textarea class="form-control" id="message" name="entry.275173398" placeholder="お見積り・ご相談・ご依頼の内容 *" required></textarea>
+                </div>
+              </div>
+              <div class="clearfix"></div>
+              <div class="col-lg-12 text-center">
+                <button id="sendMessageButton" class="btn btn-primary badge-pill btn-xl text-uppercase" type="submit" name="button">送信する</button>
+              </div>
+              <div class="col-lg-12 text-center mt-3">
+                <span class="small text-white">ご入力いただいた内容は弊社内でお客様へのご連絡のみに使用し、それ以外の用途には利用しません。</span>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Plugin JavaScript -->
+  <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+  <!-- Contact form JavaScript -->
+  <script src="js/jqBootstrapValidation.js"></script>
+  <script src="js/contact_me.js"></script>
+
+  <!-- Custom scripts for this template -->
+  <script src="js/agency.min.js"></script>
+
+  <script language="javascript" type="text/javascript">
+      function Display(no){
+
+          if(no == "no1"){
+
+              document.getElementById("plan-text1").style.display = "block";
+              document.getElementById("plan-text2").style.display = "none";
+              document.getElementById("plan-text3").style.display = "none";
+              document.getElementById("plan-text4").style.display = "none";
+
+          }else if(no == "no2"){
+
+              document.getElementById("plan-text1").style.display = "none";
+              document.getElementById("plan-text2").style.display = "block";
+              document.getElementById("plan-text3").style.display = "none";
+              document.getElementById("plan-text4").style.display = "none";
+
+          }else if(no == "no3"){
+
+              document.getElementById("plan-text1").style.display = "none";
+              document.getElementById("plan-text2").style.display = "none";
+              document.getElementById("plan-text3").style.display = "block";
+              document.getElementById("plan-text4").style.display = "none";
+
+          }else if(no == "no4"){
+
+              document.getElementById("plan-text1").style.display = "none";
+              document.getElementById("plan-text2").style.display = "none";
+              document.getElementById("plan-text3").style.display = "none";
+              document.getElementById("plan-text4").style.display = "block";
+
+          }
+
+      }
+  </script>
+
+</body>
+
+</html>
